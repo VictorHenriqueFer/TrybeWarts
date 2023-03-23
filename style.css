@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 #trybewarts-header-title {
   align-self: center;
   color: aliceblue;
@@ -17,4 +18,37 @@
   display: flex;
   justify-content: right;
   align-self: center;
+}
+
+#evaluation-form {
+  width: 675px;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+}
+
+main #evaluation-form {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+#poll {
+  width: 200px;
+}
+
+#megaDiv {
+  width: 200px;
+  display: flex;
+  flex-flow: column wrap;
 }

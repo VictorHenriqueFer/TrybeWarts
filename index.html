@@ -71,14 +71,20 @@
         <input type="radio" value="8" name="rate">8
         <input type="radio" value="9" name="rate">9
         <input type="radio" value="10" name="rate">10
-      </div>
+    </div>
+    <label for="comentario" class="textarea">Deixe seu comentário:</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" maxlength="500"></textarea>
 
-      <label for="coment" class="textarea">Deixe seu comentário:
-        <div>
-          <textarea name="coment" id="" cols="30" rows="10" maxlength="500"></textarea>
+            <div>
+                <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
+                <input type="checkbox" name="" id="agreement">
+            </div>
+            <button type="submit" id="submit-btn">Enviar</button>
         </div>
-      </label>
-      <script src="script.js"></script>
+        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+    </main>
+    <footer>Direitos reservados à Trybewarts©</footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

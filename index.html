@@ -2,45 +2,45 @@
 <html lang="pt">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Trybewarts</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Trybewarts</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
-            <img src="/images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="trybewarts">
-            <h1 id="trybewarts-header-title">Trybewarts</h1>
-        <form action="" class="trybewarts-login" method="get">
-            <input type="email" placeholder="Email" name="email" id="email">
-            <input type="password" placeholder="Senha" name="password" id="password">
-            <button id="subBtn" type="submit">Entrar</button>
-        </form>
-        </div>
-    </header>
+  <header class="header">
+    <img src="/images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="trybewarts">
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <form action="" class="trybewarts-login" method="get">
+      <input type="email" placeholder="Email" name="email" id="email">
+      <input type="password" placeholder="Senha" name="password" id="password">
+      <button id="subBtn" type="submit">Entrar</button>
+    </form>
+    </div>
+  </header>
 
-    <main id="main-content">
-        <form action="" id="evaluation-form" method="get">
-            <div id="nomeSobrenome">
-            <input id="input-name" type="text" placeholder="Nome">
-            <input id="input-lastname" type="text" placeholder="Sobrenome">
-        </div>
-        <div id="emailCasa">
-            <input id="input-email" type="email" placeholder="Email">
-        </form>
+  <main id="main-content">
+    <form action="" id="evaluation-form" method="get">
+      <div id="nomeSobrenome">
+        <input id="input-name" type="text" placeholder="Nome">
+        <input id="input-lastname" type="text" placeholder="Sobrenome">
+      </div>
+      <div id="emailCasa">
+        <input id="input-email" type="email" placeholder="Email">
+    </form>
 
-        <select name="Casa" id="house">
-            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-            <option id="corvinode-house" value="Corvinode">Corvinode</option>
-            <option id="pytherina-house" value="Pytherina">Pytherina</option>
-        </select>
+    <select name="Casa" id="house">
+      <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+      <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+      <option id="corvinode-house" value="Corvinode">Corvinode</option>
+      <option id="pytherina-house" value="Pytherina">Pytherina</option>
+    </select>
     </div>
     <div id="megaDiv">
-        <div id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</div>
-        <div>
+      <div id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</div>
+      <div>
         <input type="checkbox" class="subject" id="HoFs" value="HoFs">
         <label for="HoFs">HoFs</label>
 
@@ -58,8 +58,8 @@
 
         <input type="checkbox" class="subject" value="Python">
         <label for="Python">Python</label>
-        </div>
-    <div id="poll">
+      </div>
+      <div id="poll">
         <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
         <input type="radio" value="1" name="rate">1
         <input type="radio" value="2" name="rate">2
@@ -71,8 +71,14 @@
         <input type="radio" value="8" name="rate">8
         <input type="radio" value="9" name="rate">9
         <input type="radio" value="10" name="rate">10
-    </div>
-    <script src="script.js"></script>
+      </div>
+
+      <label for="coment" class="textarea">Deixe seu comentário:
+        <div>
+          <textarea name="coment" id="" cols="30" rows="10" maxlength="500"></textarea>
+        </div>
+      </label>
+      <script src="script.js"></script>
 </body>
 
 </html>

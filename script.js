@@ -11,3 +11,13 @@ const login = () => {
   subBtn.addEventListener('click', btnAlert);
 };
 login();
+
+const checkbox = document.getElementById('agreement');
+const btn = document.querySelector('#submit-btn');
+
+btn.disabled = true;
+checkbox.addEventListener('click', (event) => {
+  if (event.target.checked === true) {
+    btn.disabled = false;
+  }
+});

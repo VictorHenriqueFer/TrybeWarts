@@ -62,3 +62,8 @@ footer {
   text-align: center;
   background-color: gray;
 }
+
+#family {
+  display: flex;
+  flex-direction: column;
+}
